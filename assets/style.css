@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'grandslangroman';
+    src: url('grandslang-roman.woff2') format('woff2'), url('grandslang-roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page-wrapper {
+    margin: 4% 4%;
+}
+
+section.collage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+
+header {
+    position: absolute;
+    top: 10%;
+    right: 12%;
+    z-index: 1;
+    text-align: center;
+}
+
+
+.button {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+ }
+
+hr{
+    position: relative;
+    width: 100px;
+
+ }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h2 {
+    font-family: 'grandslangroman';
+    font-size: 49px;
+    font-weight: normal;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-weight: 500;
+    margin-bottom: 0px;
+    
+}
+
+.description {
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+}
+
+.date, .texte, .mail {
+    margin: 0.4%;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.texte_bold {
+    font-weight: 600;
+    font-style: normal;
+}
+
+img {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transform: translate(-50%,-50%) scale(0.3);
+    animation: fadein 1s;
+    cursor: pointer;
+  }
+
+  @keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
