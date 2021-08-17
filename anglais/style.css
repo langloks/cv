@@ -19,6 +19,7 @@ img {
    
 }
 
+
 @keyframes fadeinout {
     0% { opacity: 0; }
     40% { opacity: 1; }
@@ -139,3 +140,16 @@ h3 {
   from {margin-left: -20px; opacity: 20%;}
   to {margin-left: 0px; opacity: 100%;}
 }
+
+/* particules */
+
+canvas {
+    display: block;
+  } 
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
