@@ -36,7 +36,9 @@ header {
     text-align: center;
     width:fit-content;
 }
-
+svg {
+    vertical-align:bottom;
+}
 .button {
     font-size: 18px;
     font-weight: 400;
@@ -50,7 +52,7 @@ hr {
 }
 
 .page-wrapper {
-    margin: 5% 4%;
+    margin: 100px 4%;
 
 }
 
